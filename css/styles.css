@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  margin: 50px auto 0;
+  color: #1b262c;
+  font-weight: 400;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 2.5rem;
+  color: #1b262c;
+}
+
+h3 {
+  font-family: 'Barlow', sans-serif;
+  color: #7fa998;
+}
+
+a {
+  color: #0fabbc;
+  margin: auto 10px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 5px;
+  margin: 40px auto;
+}
+
+/*********Class Selectors*********/
+.top-container {
+  /* background-color: */
+  position: relative;
+  padding-top: 100px;
+  background-image: linear-gradient(#9aceff, #edf7fa),
+    url("images/firefly.png");
+}
+
+.middle-container {
+  background-color: #edf7fa;
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  padding: 10px;
+  background-color: #8ac6d1;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.programmer {
+  font-weight: normal;
+}
+
+.profile {
+  padding: 15px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.code-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.csharp-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.grass {
+  max-width: 100%;
+  height: auto;
+}
+
+.bottom-left-glow {
+  position: absolute;
+  width: 50px;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-right-glow {
+  position: absolute;
+  width: 40px;
+  right: 150px;
+  bottom: 200px;
+}
+
+.top-right-glow {
+  position: absolute;
+  width: 50px;
+  right: 300px;
+  top: 50px;
+}
+
+.top-left-glow {
+  position: absolute;
+  width: 30px;
+  left: 200px;
+  top: 70px;
+}
+
+.myButton {
+  background-color: #7fa998;
+  width: auto;
+  height: auto;
+  border-radius: 40px;
+  display: inline-block;
+  cursor: pointer;
+  color: #1b262c;
+  font-family: 'Barlow', sans-serif;
+  /* font-size: 17px; */
+  padding: 9px 11px;
+  text-decoration: none;
+  /* text-shadow: 0px 1px 0px #810e05; */
+  transition: 0.3s;
+}
+
+.myButton:hover {
+  background-color: #0fabbc;
+}
